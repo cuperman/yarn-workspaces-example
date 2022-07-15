@@ -1,0 +1,13 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf ./dist",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "typescript-package": "1.0.0"
+  }
+}

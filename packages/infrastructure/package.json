@@ -1,0 +1,22 @@
+{
+  "name": "infrastructure",
+  "version": "0.1.0",
+  "license": "UNLICENSED",
+  "bin": {
+    "infrastructure": "bin/helloworld.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf ./dist",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "aws-cdk": "2.32.0",
+    "typescript-package": "1.0.0"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.32.0",
+    "constructs": "^10.0.0",
+    "source-map-support": "^0.5.21"
+  }
+}
