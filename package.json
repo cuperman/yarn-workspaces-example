@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "build": "yarn workspaces run build",
+    "cdk": "yarn workspace infrastructure cdk",
     "clean": "yarn workspaces run clean",
     "test": "yarn workspaces run test"
   }
