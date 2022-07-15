@@ -26,3 +26,9 @@ yarn workspace helloworld add moment # install moment to helloworld
 yarn workspace helloworld add --dev @types/aws-lambda # install @types/aws-lambda as a dev dependency
 yarn workspace helloworld test --watch # run and watch the tests in helloworld
 ```
+
+Deploy the infrastructure to AWS using aws-vault:
+
+```bash
+aws-vault exec my-profile -- yarn cdk deploy HelloWorld
+```
