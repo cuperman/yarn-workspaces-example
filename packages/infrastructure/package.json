@@ -12,8 +12,7 @@
   },
   "devDependencies": {
     "aws-cdk": "2.32.0",
-    "esbuild": "0",
-    "typescript-package": "1.0.0"
+    "esbuild": "0"
   },
   "dependencies": {
     "aws-cdk-lib": "2.32.0",
