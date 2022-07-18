@@ -8,8 +8,7 @@
     "test": "jest"
   },
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.101",
-    "typescript-package": "1.0.0"
+    "@types/aws-lambda": "^8.10.101"
   },
   "dependencies": {
     "moment": "^2.29.4"
