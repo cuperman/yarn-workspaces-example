@@ -1,11 +1,21 @@
 # Yarn Workspace Example
 
+## Description
+
 An example mono-repo that combines the following technologies:
 
 * Yarn Workspaces - to manage packages and cross dependencies
 * Typescript - for type definitions in Javascript
 * Jest - for unit tests
 * AWS CDK - for infrastructure as code
+
+## Packages
+
+The following packages make up the application:
+
+* Typescript package - standard build and test configurations for all Typescript-based packages
+* Hello world - Lambda runtime code for the Hello World app
+* Infrastructure - Cloud infrastructure for the Hello World app
 
 ## Usage
 
