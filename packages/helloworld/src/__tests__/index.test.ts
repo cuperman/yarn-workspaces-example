@@ -13,6 +13,6 @@ describe('index', () => {
       time: '2022-07-15T16:26:57.159Z',
     });
     const response = await handler(event);
-    expect(response).toEqual("Hello, World!  It's 9:26 AM");
+    expect(response).toEqual("Hello, World!  It's 4:26 PM");
   });
 });
