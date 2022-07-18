@@ -1,6 +1,5 @@
-/** @type {import('ts-jest/dist/types').InitialOptionsTsJest} */
+const baseConfig = require('typescript-package/jest.config');
+
 module.exports = {
-  preset: 'ts-jest',
-  testEnvironment: 'node',
-  testMatch: ['**/__tests__/**/*.test.ts'],
+  ...baseConfig,
 };
